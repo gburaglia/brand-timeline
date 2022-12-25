@@ -90,7 +90,7 @@
     font-weight: 700;
 }
 
-@media screen and (min-width: 600px) {
+@media screen only and (min-width: 600px) {
     .timeline-carousel__item-inner .year {
         font-size: 36px;
     }
