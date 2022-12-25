@@ -90,23 +90,6 @@
     font-weight: 700;
 }
 
-@media screen only and (min-width: 401px) {
-    .timeline-carousel__item-inner .year {
-        font-size: 36px;
-    }
-}
-
-@media screen only and (min-width: 401px) {
-    .timeline-carousel__item-inner, .btn, .lang-switcher__list {
-        font-size: 12px;
-    }
-}
-
-@media screen only and (min-width: 401px) {
-    .text-muted {
-        font-size: 16px;
-    }
-}
 .timeline-carousel__item-inner, .btn, .lang-switcher__list, .text-muted {
         font-size: 24px;
 }
@@ -326,4 +309,21 @@ a:active {
     pointer-events:none;
 }
 
+@media (min-width: 401px) {
+    .timeline-carousel__item-inner .year {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 401px) {
+    .timeline-carousel__item-inner, .btn, .lang-switcher__list {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 401px) {
+    .text-muted {
+        font-size: 16px;
+    }
+}
 
