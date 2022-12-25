@@ -115,8 +115,8 @@
 }
 .timeline-carousel__item-inner p {
   line-height: 18px;
-  color: white;
-  width: 60%;
+  color: black;
+  width: 90%;
   font-weight: 400;
   margin-bottom: 15px;
 }
