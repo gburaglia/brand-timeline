@@ -76,18 +76,35 @@
   content: "";
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-.timeline-carousel__item-inner .year {
-  font-family: "Libre Franklin", sans-serif;
-  font-size: 36px;
-  line-height: 36px;
-  color: black;
-  display: table;
-  letter-spacing: -1px;
-  padding-right: 10px;
-  z-index: 1;
-  position: relative;
-  margin: -15px 0 20px;
-  font-weight: 700;
+@media screen and (min-width: 451px) {
+    .timeline-carousel__item-inner .year {
+      font-family: "Libre Franklin", sans-serif;
+      font-size: 72px;
+      line-height: 36px;
+      color: black;
+      display: table;
+      letter-spacing: -1px;
+      padding-right: 10px;
+      z-index: 1;
+      position: relative;
+      margin: -15px 0 20px;
+      font-weight: 700;
+    }
+}
+@media screen and (max-width: 450px) {
+    .timeline-carousel__item-inner .year {
+      font-family: "Libre Franklin", sans-serif;
+      font-size: 36px;
+      line-height: 36px;
+      color: black;
+      display: table;
+      letter-spacing: -1px;
+      padding-right: 10px;
+      z-index: 1;
+      position: relative;
+      margin: -15px 0 20px;
+      font-weight: 700;
+    }
 }
 .timeline-carousel__item-inner .year:after {
   content: "";
