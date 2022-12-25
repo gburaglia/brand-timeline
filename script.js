@@ -13,14 +13,15 @@ function carousel() {
     dots: true,
     autoplay: false,
     speed: 1100,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    mobileFirst: true,
     responsive: [
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToShow: 3,
+          slidesToScroll: 3
         }
       }]
   });
