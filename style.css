@@ -76,10 +76,8 @@
   content: "";
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-@media screen and (min-width: 451px) {
-    .timeline-carousel__item-inner .year {
+.timeline-carousel__item-inner .year {
       font-family: "Libre Franklin", sans-serif;
-      font-size: 72px;
       line-height: 36px;
       color: black;
       display: table;
@@ -89,23 +87,37 @@
       position: relative;
       margin: -15px 0 20px;
       font-weight: 700;
-    }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (min-width: 401px) {
     .timeline-carousel__item-inner .year {
-      font-family: "Libre Franklin", sans-serif;
-      font-size: 36px;
-      line-height: 36px;
-      color: black;
-      display: table;
-      letter-spacing: -1px;
-      padding-right: 10px;
-      z-index: 1;
-      position: relative;
-      margin: -15px 0 20px;
-      font-weight: 700;
+        font-size: 36px;
     }
 }
+@media screen and (max-width: 400px) {
+    .timeline-carousel__item-inner .year {
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 401px) {
+    .timeline-carousel__item-inner, .btn, .lang-switcher__list {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 401px) {
+    .text-muted {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .timeline-carousel__item-inner, .btn, .lang-switcher__list, .text-muted {
+        font-size: 24px;
+    }
+}
+
+
 .timeline-carousel__item-inner .year:after {
   content: "";
   position: absolute;
@@ -118,7 +130,6 @@
 }
 .timeline-carousel__item-inner .month {
   font-family: "Libre Franklin", sans-serif;
-  font-size: 12px;
   text-transform: uppercase;
   color: #E7BBA4;
   display: block;
@@ -126,7 +137,6 @@
   font-weight: 600;
 }
 .timeline-carousel__item-inner p {
-  font-size: 12px;
   line-height: 18px;
   color: white;
   width: 60%;
@@ -134,7 +144,6 @@
   margin-bottom: 15px;
 }
 .timeline-carousel__item-inner .read-more {
-  font-size: 12px;
   color: #E7BBA4;
   display: table;
   margin-bottom: 10px;
@@ -256,7 +265,6 @@
 .slick-prev .btn, .slick-next .btn {
   border-radius: 0;
   font-family: "Libre Franklin", sans-serif;
-  font-size: 12px;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -267,7 +275,6 @@
   z-index: 9999;
   border-radius: 0;
   font-family: "Libre Franklin", sans-serif;
-  font-size: 12px;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -296,14 +303,12 @@
 .lang-switcher__code {
     padding-left: 10px;
     font-family: "Montserrat", Sans-serif;
-    font-size: 12px;
     color: black;
 }
 
 .lang-switcher__code--selected {
     padding-left: 10px;
     font-family: "Montserrat", Sans-serif;
-    font-size: 12px;
     font-weight: 700;
     color: black;
 }
