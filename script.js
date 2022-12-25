@@ -16,14 +16,6 @@ function carousel() {
     slidesToShow: 1,
     slidesToScroll: 1,
     mobileFirst: true,
-    responsive: [
-      {
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3
-        }
-      }]
   });
 }
 
