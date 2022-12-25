@@ -4,6 +4,7 @@ $.js = function (el) {
 
 function carousel() {
   $.js('timeline-carousel').slick({
+    wrap: false,
     infinite: false,
     arrows: true,
      arrows: true,
@@ -12,16 +13,25 @@ function carousel() {
     dots: true,
     autoplay: false,
     speed: 1100,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    mobileFirst: true,
     responsive: [
       {
-        breakpoint: 800,
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3
+        }
+      },
+    {
+        breakpoint: 450,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
         }
-      }]
+      },
+    ]
   });
 }
 
