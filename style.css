@@ -90,27 +90,25 @@
     font-weight: 700;
 }
 
-@media screen only and (min-width: 600px) {
+@media screen only and (min-width: 401px) {
     .timeline-carousel__item-inner .year {
         font-size: 36px;
     }
 }
 
-@media screen and (min-width: 401px) {
+@media screen only and (min-width: 401px) {
     .timeline-carousel__item-inner, .btn, .lang-switcher__list {
         font-size: 12px;
     }
 }
 
-@media screen and (min-width: 401px) {
+@media screen only and (min-width: 401px) {
     .text-muted {
         font-size: 16px;
     }
 }
-@media screen and (max-width: 400px) {
-    .timeline-carousel__item-inner, .btn, .lang-switcher__list, .text-muted {
+.timeline-carousel__item-inner, .btn, .lang-switcher__list, .text-muted {
         font-size: 24px;
-    }
 }
 
 
